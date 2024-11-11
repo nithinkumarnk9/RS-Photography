@@ -2,10 +2,261 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Photography</title>
+    <meta name="viewpoint" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>RS-PHOTOGRAPHY</title>
 </head>
+<style>
+    .carousel-item {
+    height: 70vh;
+    }
+    .carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    }
+    .header-overlay {
+    position: absolute;
+    top : 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    }
+    .about-image {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    }
+    about-section {
+    padding: 2rem;
+    }
+    gallery-image {
+    border-radius: 8px;
+    }
+    .gallery-row {
+    margin-bottom: 20px;
+    }
+    .custom-shadow {
+    box-shadow: 0, 4px, 8px rgba(0,0,0,0.2);
+    }
+    h1 {
+    font-family:Trebuchet MS;
+    }
+    h5 {
+    font-family: Garamond;
+    }
+    p {
+    font-family: Brush Script MT;
+    }
+    .custom-bg {
+    background-color: #dbe9fa;
+    }
+    body {
+    background-color: #bdedff;
+    }
+    h2 {
+    padding-left: 20px;
+    font-family:Verdana;
+    }
+    h6 {
+    font-family: cursive;
+    text:white;
+    padding-left: 50px;
+    }
+</style>
 <body>
-<h1>welcome to photography</h1>
-
+<!-- Header Carousel Section -->
+<header>
+    <div id="headerCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhua0p2aYqUEUJUIXZRQ4y64FNuGkKqV7YtJn1wxPOTH_l0cUCwokb2tgCTYN4pnBeXAmgHAtyY3YYgRGluklga24oyWNYkvThsfmJRaPTLQ4izP-QodhY-bodzhhUhyphenhyphenlG0IJOzDY1cDVrDgK49eR81Nkic7ilFKq0fWb2QdhyphenhyphenGP2now5mugpMKgSI_5Jtr/s274/images%20%2819%29.jpeg" class="d-block w-100" alt="header image">
+            <div class="header-overlay">
+                <div class="container">
+                    <h1 class="display-4">Welcome to RS Photography</h1>
+                    <p class="lead">Capturing moments, crafting stories</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</header>
+        <!-- About Section -->
+        <section class="container my-5">
+            <div class="row align-items-center">
+                <!-- Left Side Image -->
+                <div class="col-md-6">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkMauz0gU21TOO00pVh1mU9ragvPwvvmWcaJ1GJimevsCFWD2wgJsgEgN48YkjTVhSE8yO2QDN0VXxBEXWogNCNnihiYlcNt8kA64O_zLAG-7YwouxaSCVcXYbtzFCTC0bzX-I5VenCQncvyI4QgmbgwIVN8TORfFqx9my_fb5F_wbQ7YyPGODaYHL-ZFo/s1200/1200px-Photographer_Photographing_Nevada_Mountains.jpg" alt="about us">
+                </div>
+                <!-- Right Side Content -->
+                <div class="col-md-6 about-section">
+                    <h2>Photography for Every Occasion</h2>
+                    <h6 class="font-family: Allura">At RS Photography, we believe in turning life's fleeting moments into lasting memories. Whether it's your wedding, a family gathering, or a solo portrait, we ensure every shot tells a story. </h6>
+                </div>
+            </div>
+        </section>
+<div class="container my-5">
+    <div class="row align-items-center">
+        <!-- Left Card -->
+        <div class="col-md-3">
+            <div class="card custom-shadow bg-dark text-white">
+                <div class="card-body custom-shadow">
+                    <h5 class="card-title">Birthday</h5>
+                    <p class="card-text">Birthdays are milestones worth celebrating, and at RS Photography, we specialize in preserving those unforgettable moments.  </p>
+                </div>
+            </div>
+        </div>
+        <!-- Middle image -->
+<div class="col-md-6 text-center">
+            <img src="#" class="img-fluid" alt="">
+        </div>
+        <!-- Right Card -->
+        <div class="col-md-3">
+            <div class="card custom-shadow bg-success">
+                <div class="card-body custom-shadow">
+                    <h5 class="card-title">Fashion</h5>
+                    <p class="card-text">Fashion is more than just clothing-it's a statement, a story, and a reflection of identity. At RS Photography, we bring your vision to life by capturing the essence of your style.</p>
+                </div>
+            </div>
+        </div>
+       <div class="container my-5">
+           <div class="row align-items-center">
+               <!-- Left Card -->
+               <div class="col-md-3">
+                   <div class="card ">
+                       <div class="card-body bg-info">
+                           <h5 class="card-title">Wedding </h5>
+                           <p class="card-text">Your wedding day is a once-in-a lifetime celebration, filled with moments of joy, love, and emotion.</p>
+       </div>
+                   </div>
+               </div>
+               <!-- Middle Image -->
+               <div class="col-md-6 text-center">
+                   <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlHbYpWd-JxbwDgJB-MXW4Ar8c-wkKPpEko0JeR08v9DYI_BM8uSfoVGTGYsvbvAv28Sv_e5GmktPYAZUlj4r-RDukE6u4m6qgnah3w35ue_9p-GQojTjG2hqgyD6JsK-00QEbEkS5T1E5FHGBpn12XJIKsJ_AuFxQcr7ZWsyr1MtxHFPJ8DoZN9ouLe2B/s225/download.png" class="img-fluid" alt="middle image">
+               </div>
+               <!-- Right Card -->
+               <div class="col-md-3">
+                   <div class="card custom-shadow bg-warning">
+                       <div class="card-body custom-shadow">
+                           <h5 class="card-title">Event</h5>
+                           <p class="card-text">Capturing the essence of your special moments with our professional event photography.</p>
+               </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+        <div class="container my-5">
+           <div class="row align-items-center">
+               <!-- Left Card -->
+               <div class="col-md-3">
+                   <div class="card">
+                       <div class="card-body bg-danger text-white">
+                           <h5 class="card-title">Travel</h5>
+                           <p class="card-text">Bring your adventures to life with our professional travel photography! Whether you're exploring bustling cities, serene landscapes, or erotic destinations, we'll capture the beauty and emotion of your journey.</p>
+       </div>
+                   </div>
+               </div>
+               <!-- Middle Image -->
+               <div class="col-md-6 text-center">
+                   <img src="#" class="img-fluid" alt="">
+               </div>
+               <!-- Right Card -->
+               <div class="col-md-3">
+                   <div class="card">
+                       <div class="card-body bg-primary text-white">
+                           <h5 class="card-title">Nature</h5>
+                           <p class="card-text">Nature the beauty of the natural world through stunning high-quality photography. From series landscapes to intricate close-ups of flora and fauna, our nature photography captures the essence of the outdoors in its purest form. </p>
+               </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+        <section class="custom-bg">
+        <div class="container mt-4">
+            <div class="row gallery-row">
+                <div class="col-md-4 mb-3">
+                    <div class="card shadow">
+                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCW20fTbeK8tboA6aoHX27ejxPpIoqsm3AwkCMY80wGLJMLP3X_virLAxopNRinsnaB2uJPGlaTns3yfL7g5SDd04t-omK6WDW5rWVTHjsfZoi8qC6UB7JeaXwSSC2b47KaQ7QTZIYqOIg1v5KJa7C_Cn5qI1FHzLBTLfAeUJ8HG0w1yy3oofTPR3c_8yx/s1080/Birthday-gallery-image-1080-x-1080px.jpg" class="card-img-top gallery-image" alt="image">
+        </div>
+                </div>
+            <div class="col-md-4 mb-3">
+                <div class="card shadow">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimQ8wc8aKGppBqdYODICR0kmCsmry4_OZ3uG1XPtM0NcnwnOEdDZAnLwaTLLLBAxnmDmLEw9IFAX6Y9HkQNC2QGOQT_rYaH-C015n5K1G6AKJSOKJ8jRanGhQP1Kg_6K4geZ-ribfqMToCDHlxrxNBb3hVYGN3ru-FEc7i6hKEG-ecLE3e_lAUz4K7KkPZ/s2266/candid-telugu-wedding-photographer-amarramesh-208.jpg" class="card-img-top gallery-image" alt="image">
+            </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card shadow">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilb3w1tl15V_cVFvBGewE1vGeHbMr2qYwoS4nOoBFfxeriD5KLoYeRbHfMcWk4D8kBy-U59Dc8qwLPu8YUVozK8APboqbyOkVtVbnji6cNlrpzN2kqy1j1xGoMvVRsg0Yqd8BvxUP1h24ZLyKrEyeVGa1zAcDQ8SXuV3SUkOBAYT019U7bU7cyoq7KWnsx/s600/close-portrait-beautiful-girl-dark-600nw-751067977.webp" class="card-img-top gallery-image" alt="image">
+            </div>
+            </div>
+            </div>
+                <div class="row gallery-row">
+                    <div class="col-md-4 mb-3">
+                        <div class="card shadow">
+                            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGG6WrAdjS993ZMcnmBuoNcv2t22AroIzc-0rngcPTKFWG1BKPfhxZ3_wyfDVdJI2JFHqHiYIpzb3u0dDS8uOebcgFQ_hOk2RHrfw8n0m7nNxipiLKJhmqvqO5oIel0nYJ_jeqNRI9PuPzVV3oqrPhTIzYIsElFRoXqsyq2fus3LYHUxK7Ya8RKqKm8lpF/s1600/corporate-event-photography-in-hyderabad-1.jpg" class="card-img-top gallery-image" alt="image">
+                </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card shadow">
+                            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtpvzTXcdsnifTp4SBfl7kW8LClfiSA3qQqke2-8iM2PF619lyB5ihAnq5O5XTnaS8pQKTofHalHD0pYpT20G2zY-u-ozY0XxYTahsoQBtjIinLQp0_zVKiXODzNeQLpv1wMURcReNGfGvgDwPExQCZ6m6tqYmk5seLXWp3-OqDI84RbKkVpR1zm7FCcjm/s800/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.webp" class="card-img-top gallery-image" alt="image">
+                            </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card shadow">
+                            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBQBs7-4DP6mPWa8An-rGTt2pwcxSIZVauIo3Feixkx-0vyO30jbUTV4RB_CDTavDfk0Qdz2XyeIgAevVGjGdz34Za-toCok8fTJKUQoNI0hUB0DhVbNdkWb_Z6dQS_nJg5M5HMltET2wrDXSPUqjuzNKZYHFqCv7Hd9SyZ5I7hXIqrGGX7v7pK7pHizjJ/s612/istockphoto-1034301914-612x612.jpg" class="card-img-top gallery-image" alt="image">
+                            </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+            <footer class="text-black py-4">
+                <div class="container">
+                    <div class="row">
+                        <!-- About Section -->
+                        <div class="col-md-4">
+                            <h5>About us</h5>
+                            <p>At RS Photography, we believe in turning life's fleeting moments into lasting memories. Whether it's your wedding, a family gathering, or a solo portrait, we ensure every shot tells a story. </p>
+                </div>
+                        <!-- Links Section -->
+                        <div class="col-md-4">
+                            <h5>Quick Links</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="text-black text-decoration-none">Home</a>
+                                <li><a href="#" class="text-black text-decoration-none">About</a>
+                                <li><a href="#" class="text-black text-decoration-none">Services</a>
+                                <li><a href="#" class="text-black text-decoration-none">Contact</a>
+                            </li>
+                            </ul>
+                        </div>
+                        <!-- Contact us -->
+                        <div class="col-md-4">
+                            <h5>Contact Us</h5>
+                            <p>
+                                <i class="bi bi-telephone-fill"></i> +123 456 789<br>
+                                <i class="bi bi-envelope-fill"></i> nithinkumarnk999@gmail.com<br>
+                                <i class="bi bi-geo-alt-fill"></i> Visakhapatnam city, India<br>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Footer Bottom -->
+                    <div class="row mt-3">
+                        <div class="col text-center">
+                            <p class="mb-0">&copy; 2024 RS Photography.All Rights Reversed. </p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+    </div>
+</div>
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.net/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
